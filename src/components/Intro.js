@@ -28,7 +28,7 @@ const Intro = () => {
             </a>
           </div>
           <div className="idLinks">
-            <a href="./Assets/docs/Resume.pdf">
+            <a href="../Assets/docs/Resume.pdf">
               <button className="contact">My Resume</button>
             </a>
           </div>

@@ -19,7 +19,7 @@ const Contact = () => {
             ></a>
           </div>
           <div class="resumeDiv">
-            <a href="./Assets/docs/Resume.pdf">
+            <a href="../Assets/docs/Resume.pdf">
               <button class="contact resumeBtn">My Resume</button>
             </a>
           </div>
