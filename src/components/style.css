@@ -1,0 +1,259 @@
+body {
+  background-color: #2f4858;
+}
+
+.hero-image {
+  background-image: url(../Assets/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg);
+  height: 55em;
+  width: 100%;
+  background-size: cover;
+}
+
+.intro {
+  font-size: 3em;
+  color: seashell;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  /* padding: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.introText {
+  margin-top: 1.5em;
+}
+
+.idLinks {
+  margin-left: 1.25em;
+  /* margin-bottom: 1em; */
+  margin-top: 1em;
+} 
+
+
+
+h5 a {
+  text-decoration: none;
+  color: #f26419;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #f26419;
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.headingInfo {
+  padding-left: 3em;
+}
+
+.intro p {
+  font-size: 0.5em;
+}
+
+.contact {
+  font-size: 0.5em;
+  color: seashell;
+  background: none;
+  border: 2px solid seashell;
+  border-radius: 5px;
+}
+
+.resumeBtn {
+  font-size: 0.5em;
+  color: seashell;
+  background: none;
+  border: 2px solid seashell;
+  border-radius: 5px;
+}
+
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1em;
+  color: #f26419;
+}
+
+.box h3 {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  width: 75%;
+  border-bottom: 2px solid #f6ae2d;
+}
+
+.box p {
+  width: 80%;
+  margin: auto;
+  padding-top: 0.5em;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.box {
+  flex: 1 1 150px;
+  margin: 5px;
+
+  width: 200px;
+  height: auto;
+}
+
+#carouselExampleCaptions {
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+.aside-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+  width: 75%;
+  height: 1.5em;
+  margin-top: 5px;
+  font-size: 1.25em;
+}
+label {
+  margin: 6px 0 2px 4px;
+
+  font-size: 1.25em;
+}
+#contact {
+  width: 340px;
+}
+
+textarea {
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+  resize: none;
+  width: 255px;
+  font-size: 1.25em;
+}
+
+.input {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 2px 40px 0 40px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  margin: auto;
+  margin-top: 8px;
+  padding-left: 45px;
+}
+
+.carousel-item {
+  height: auto;
+}
+
+.contact-area {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-bottom: 1em;
+  padding: 1em;
+  height: auto;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-area .box {
+  flex: 0 1 300px;
+  height: auto;
+}
+
+/* .carousel {
+  width: 640px;
+  height: 360px;
+} */
+
+.contactTitle {
+  margin-top: 2em;
+}
+
+.fa-linkedin {
+  /* background: #3b5998; */
+  /* background: #fff; */
+  color: #fff;
+  font-size: 2em;
+}
+
+.fa-github {
+  /* background: #3b5998; */
+  /* background: #fff; */
+  color: #fff;
+  font-size: 2em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 3em;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  text-decoration: none;
+}
+
+.social-icon {
+  /* display: flex; */
+  padding: .5em;
+  align-items: center;
+}
+
+/* .social-icon {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+} */
