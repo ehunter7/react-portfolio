@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
+import ResumePDF from "../Assets/docs/Resume.pdf"
+
 
 const Intro = () => {
+  const [showResume, setShowResume] = useState(false);
+
   return (
     <div classNameName="introText">
       <h1 className="headingInfo">
@@ -28,8 +32,9 @@ const Intro = () => {
             </a>
           </div>
           <div className="idLinks">
-            <a href="../Assets/docs/Resume.pdf">
-              <button className="contact">My Resume</button>
+            <a href={ResumePDF} target='_blank' rel='noopener noreferrer'>
+              <button className="contact" >My Resume</button>
+   
             </a>
           </div>
         </section>

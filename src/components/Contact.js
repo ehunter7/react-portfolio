@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
+import ResumePDF from "../Assets/docs/Resume.pdf"
+
 
 const Contact = () => {
+const [showResume, setShowResume] = useState(false);
+
   return (
     <div>
       <h2 className="contactTitle">Contact</h2>
@@ -19,9 +23,10 @@ const Contact = () => {
             ></a>
           </div>
           <div class="resumeDiv">
-            <a href="../Assets/docs/Resume.pdf">
+            <a href={ResumePDF} target='_blank' rel='noopener noreferrer'>
               <button class="contact resumeBtn">My Resume</button>
             </a>
+
           </div>
         </div>
       </section>
