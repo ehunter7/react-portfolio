@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ae9014c4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.bde21b11.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.bde21b11.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c5726652.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e05b01bd.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e05b01bd.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f00a47a1.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f00a47a1.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bc3a7a50.chunk.js": "/react-portfolio/static/js/2.bc3a7a50.chunk.js",
-    "static/js/2.bc3a7a50.chunk.js.map": "/react-portfolio/static/js/2.bc3a7a50.chunk.js.map",
+    "static/js/2.161ac98a.chunk.js": "/react-portfolio/static/js/2.161ac98a.chunk.js",
+    "static/js/2.161ac98a.chunk.js.map": "/react-portfolio/static/js/2.161ac98a.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ae9014c4.chunk.css.map": "/react-portfolio/static/css/main.ae9014c4.chunk.css.map",
-    "static/js/2.bc3a7a50.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bc3a7a50.chunk.js.LICENSE.txt",
+    "static/css/main.c5726652.chunk.css.map": "/react-portfolio/static/css/main.c5726652.chunk.css.map",
+    "static/js/2.161ac98a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.161ac98a.chunk.js.LICENSE.txt",
     "static/media/Burger_screenshot.2ea12511.png": "/react-portfolio/static/media/Burger_screenshot.2ea12511.png",
     "static/media/CtyFaktz_screenshot.fd478568.png": "/react-portfolio/static/media/CtyFaktz_screenshot.fd478568.png",
+    "static/media/Resume.9296fc18.pdf": "/react-portfolio/static/media/Resume.9296fc18.pdf",
     "static/media/gentle_drinker_login_screenshot.883e24a3.png": "/react-portfolio/static/media/gentle_drinker_login_screenshot.883e24a3.png",
     "static/media/gentle_drinker_main_screenshot.caf2001d.png": "/react-portfolio/static/media/gentle_drinker_main_screenshot.caf2001d.png",
     "static/media/style.css": "/react-portfolio/static/media/kilyan-sockalingum-8NH2_f5TxAA-unsplash.50be40f0.jpg"
@@ -21,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.f00a47a1.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bc3a7a50.chunk.js",
-    "static/css/main.ae9014c4.chunk.css",
-    "static/js/main.bde21b11.chunk.js"
+    "static/js/2.161ac98a.chunk.js",
+    "static/css/main.c5726652.chunk.css",
+    "static/js/main.e05b01bd.chunk.js"
   ]
 }
