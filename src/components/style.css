@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .introText {
@@ -30,9 +29,7 @@ body {
   margin-left: 1.25em;
   /* margin-bottom: 1em; */
   margin-top: 1em;
-} 
-
-
+}
 
 h5 a {
   text-decoration: none;
@@ -248,7 +245,7 @@ textarea {
 
 .social-icon {
   /* display: flex; */
-  padding: .5em;
+  padding: 0.5em;
   align-items: center;
 }
 
@@ -257,3 +254,20 @@ textarea {
   justify-content: center;
   padding: 2em;
 } */
+
+.projectCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.projectImage {
+  display: block;
+  width: 100%;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+}
