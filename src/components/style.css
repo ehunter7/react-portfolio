@@ -4,7 +4,8 @@ body {
 
 .hero-image {
   background-image: url(../Assets/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg);
-  height: 55em;
+  min-height: 55em;
+  max-height: fit-content;
   width: 100%;
   background-size: cover;
 }
@@ -21,12 +22,17 @@ body {
   align-items: center;
 }
 
-.introText {
+.intro-content {
   margin-top: 1.5em;
 }
 
+.intro-text {
+  display: flex;
+  justify-content: center;
+}
+
 .idLinks {
-  margin-left: 1.25em;
+  /* margin-left: 1.25em; */
   /* margin-bottom: 1em; */
   margin-top: 1em;
 }
@@ -48,7 +54,8 @@ a:hover {
 }
 
 .headingInfo {
-  padding-left: 3em;
+  /* padding-left: 3em; */
+  margin-top: 3rem;
 }
 
 .intro p {
@@ -192,10 +199,11 @@ textarea {
 .contact-area {
   display: flex;
   /* flex-wrap: wrap; */
-  justify-content: center;
+  justify-content: space-evenly;
   margin-bottom: 1em;
   padding: 1em;
   height: auto;
+  width: 100%;
 }
 
 .contact-form {
@@ -232,9 +240,9 @@ textarea {
 }
 
 .fa {
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 3em;
-  width: 65px;
+  /* width: 65px; */
   text-align: center;
   text-decoration: none;
   border-radius: 50%;

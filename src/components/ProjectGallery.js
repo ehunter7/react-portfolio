@@ -9,6 +9,10 @@ import Bubbles_admin from "../Assets/Images/Bubbles-admin.png";
 import Bubbles_manage from "../Assets/Images/Bubbles-manage-accounts.png";
 import Bubbles_pay from "../Assets/Images/Bubbles-pay.png";
 import Bubbles_calendar from "../Assets/Images/Bubbles-calendar.png";
+import Google_Books_Search from "../Assets/Images/Google-Book-Search.png";
+import Google_Books_Saved from "../Assets/Images/Google-Book-Saved.png";
+import Employee_Tracker from "../Assets/Images/Employee-Tracker.jpg";
+import Employee_Tracker_Filter from "../Assets/Images/Employee-Tracker-Filter.jpg";
 
 const ProjectGallery = () => {
   const myProjects = [
@@ -21,10 +25,10 @@ const ProjectGallery = () => {
         Bubbles_pay,
         Bubbles_calendar,
       ],
-      deployedLink: "",
-      gitHubLink: "",
+      deployedLink: "https://peaceful-castle-79357.herokuapp.com/",
+      gitHubLink: "https://github.com/ehunter7/Portal-Matriarch",
       description:
-        "Bubbles is an Employee managment system that allows for better communition between employees, and management. It houses a multitude of different tools that can be used by the empoyee and managment staff. The application also contains payroll calculations.",
+        "Bubbles is an Employee managment system that allows for better communition between employees, and management. It houses a multitude of different tools that can be used by the empoyee and managment staff. The application also contains payroll calculations.Site was built using MongoDB, Express, React, and Node.js.",
     },
     {
       title: "Gentle Drinker",
@@ -40,23 +44,31 @@ const ProjectGallery = () => {
       deployedLink: "https://charlestbell.github.io/ctyFaktz/",
       gitHubLink: "https://github.com/ehunter7/ctyFaktz",
       description:
-        "Ever wondered if a city is right for you? Look no further than ctyFaktz; city research made fun!",
+        "Ever wondered if a city is right for you? Look no further than ctyFaktz; city research made fun! The site utilizes multiple API calls including a Google maps API, Yelp API. The site also incorperates auto completed when tyoping in a city which was made ossible by the google API.",
     },
     {
       title: "Google Book Search",
-      image: [Burger_screenshot],
-      deployedLink: "",
-      gitHubLink: "",
+      image: [Google_Books_Search, Google_Books_Saved],
+      deployedLink: "https://calm-peak-82404.herokuapp.com/",
+      gitHubLink: "https://github.com/ehunter7/google-book-search",
       description:
-        "A site that allows users to search for books using Google's book search API. Users can search and save a book of their liking.",
+        "A site that allows users to search for books using Google's book search API. Users can search and save a book of their liking. The application also contains payroll calculations.Site was built using MongoDB, Express, React, and Node.js.",
     },
     {
-      title: "Das Burgers",
+      title: "Burgers",
       image: [Burger_screenshot],
       deployedLink: "",
       gitHubLink: "https://github.com/ehunter7/Eat-Da-Burger",
       description:
         "This was a fun project that has a user add Burgers to a list. The list is then divided between burgers that have been eaten and that is PENDING A SMASHING! Application utilized mySql to store the data that is entered.",
+    },
+    {
+      title: "Employee Tracker",
+      image: [Employee_Tracker, Employee_Tracker_Filter],
+      deployedLink: "https://ehunter7.github.io/react-employee-tracker/",
+      gitHubLink: "https://github.com/ehunter7/react-employee-tracker",
+      description:
+        "An application that produces a list of empoyees generated from a random user API. List contains one hundreed employees and is searchable by multiple fiels such as; Name, Email, City, Country. List can also be filter by Country, Username, and/ or Email. Site was built using MongoDB, Express, React, and Node.js.",
     },
   ];
 
