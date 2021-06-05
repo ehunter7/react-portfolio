@@ -45,13 +45,13 @@ const Intro = () => {
 
             <div className="social-icon">
               <a
-                className="fa fa-linkedin fa-2x"
+                className="fa fa-linkedin "
                 href="https://www.linkedin.com/in/eric-hunter-b7a637183?trk=profile-badge"
               ></a>
             </div>
             <div className="social-icon">
               <a
-                className="fa fa-github fa-2x"
+                className="fa fa-github "
                 href="https://github.com/ehunter7"
               ></a>
             </div>

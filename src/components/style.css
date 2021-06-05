@@ -229,7 +229,7 @@ textarea {
   /* background: #3b5998; */
   /* background: #fff; */
   color: #fff;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .fa-github {
@@ -241,7 +241,7 @@ textarea {
 
 .fa {
   /* padding: 20px; */
-  font-size: 3em;
+  font-size: 2em;
   /* width: 65px; */
   text-align: center;
   text-decoration: none;
