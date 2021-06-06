@@ -28,7 +28,7 @@ const ProjectGallery = () => {
       deployedLink: "https://peaceful-castle-79357.herokuapp.com/",
       gitHubLink: "https://github.com/ehunter7/Portal-Matriarch",
       description:
-        "Bubbles is an Employee managment system that allows for better communition between employees, and management. It houses a multitude of different tools that can be used by the empoyee and managment staff. The application also contains payroll calculations.Site was built using MongoDB, Express, React, and Node.js.",
+        "Bubbles is an Employee Management System that allows for better communication between employees and management. It houses a multitude of different tools that can be used by the employee and management staff. The application also contains payroll calculations. This site was built using MongoDB, Express, React, and Node.js.",
     },
     {
       title: "Gentle Drinker",
@@ -44,7 +44,7 @@ const ProjectGallery = () => {
       deployedLink: "https://charlestbell.github.io/ctyFaktz/",
       gitHubLink: "https://github.com/ehunter7/ctyFaktz",
       description:
-        "Ever wondered if a city is right for you? Look no further than ctyFaktz; city research made fun! The site utilizes multiple API calls including a Google maps API, Yelp API. The site also incorperates auto completed when tyoping in a city which was made ossible by the google API.",
+        "Ever wondered if a city is right for you? Look no further than ctyFaktz; city research made fun! The site utilizes multiple API calls including a Google maps API, Yelp API. The site also incorporates auto completion when typing in a city which was made possible by the Google API.",
     },
     {
       title: "Google Book Search",
@@ -52,7 +52,7 @@ const ProjectGallery = () => {
       deployedLink: "https://calm-peak-82404.herokuapp.com/",
       gitHubLink: "https://github.com/ehunter7/google-book-search",
       description:
-        "A site that allows users to search for books using Google's book search API. Users can search and save a book of their liking. The application also contains payroll calculations.Site was built using MongoDB, Express, React, and Node.js.",
+        "A site that allows users to search for books using Google's Book Search API. Users can search and save any book's of their liking. The application also contains payroll calculations. This site was built using MongoDB, Express, React, and Node.js.",
     },
     {
       title: "Burgers",
@@ -60,7 +60,7 @@ const ProjectGallery = () => {
       deployedLink: "",
       gitHubLink: "https://github.com/ehunter7/Eat-Da-Burger",
       description:
-        "This was a fun project that has a user add Burgers to a list. The list is then divided between burgers that have been eaten and that is PENDING A SMASHING! Application utilized mySql to store the data that is entered.",
+        "This was a fun project that has a user add burgers to a list. The list is then divided between burgers that have been eaten and have not been eaten (aka PENDING A SMASHING!) This application utilized mySql to store the data that is entered.",
     },
     {
       title: "Employee Tracker",
@@ -68,7 +68,7 @@ const ProjectGallery = () => {
       deployedLink: "https://ehunter7.github.io/react-employee-tracker/",
       gitHubLink: "https://github.com/ehunter7/react-employee-tracker",
       description:
-        "An application that produces a list of empoyees generated from a random user API. List contains one hundreed employees and is searchable by multiple fiels such as; Name, Email, City, Country. List can also be filter by Country, Username, and/ or Email. Site was built using MongoDB, Express, React, and Node.js.",
+        "The Employer Tracker is an application that produces a list of employees generated from a random user API. List contains one hundred employees and is searchable by multiple fields such as: Name, E-mail, City, or Country. The list can also be filtered by Country, Username, and/ or E-mail. This site was built using MongoDB, Express, React, and Node.js.",
     },
   ];
 
