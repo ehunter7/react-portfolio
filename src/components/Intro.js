@@ -26,17 +26,17 @@ const Intro = () => {
           <section className="col-6 links">
             <div className="idLinks">
               <a href="#about">
-                <button className="contact">About Me</button>
+                <button className="contact shuttle">About Me</button>
               </a>
             </div>
             <div className="idLinks">
               <a href="#work">
-                <button className="contact">My Work</button>
+                <button className="contact shuttle">My Work</button>
               </a>
             </div>
             <div className="idLinks">
               <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
-                <button className="contact">My Resume</button>
+                <button className="contact shuttle">My Resume</button>
               </a>
             </div>
           </section>
@@ -45,13 +45,13 @@ const Intro = () => {
 
             <div className="social-icon">
               <a
-                className="fa fa-linkedin "
+                className="fa fa-linkedin shuttle"
                 href="https://www.linkedin.com/in/eric-hunter-b7a637183?trk=profile-badge"
               ></a>
             </div>
             <div className="social-icon">
               <a
-                className="fa fa-github "
+                className="fa fa-github shuttle"
                 href="https://github.com/ehunter7"
               ></a>
             </div>

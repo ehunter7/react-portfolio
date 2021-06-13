@@ -2,7 +2,6 @@ import React from "react";
 import ImageCarousel from "./ImageCarousel";
 
 const ProjectCard = ({ project }) => {
-  console.log(project.image);
   return (
     <div className="col-md-6 projectCard">
       <div className="container ">
@@ -15,8 +14,14 @@ const ProjectCard = ({ project }) => {
           )}
         </div>
         <div className="project-links">
-          {project.deployedLink === "" ? <a href="">Deployed site</a> : null}
-          <a href="">GitHub Repo</a>
+          {project.deployedLink !== "" ? (
+            <a className="project-link" href={project.deployedLink}>
+              Deployed site
+            </a>
+          ) : null}
+          <a className="project-link" href={project.gitHubLink}>
+            GitHub Repo
+          </a>
         </div>
         <p>{project.description}</p>
       </div>

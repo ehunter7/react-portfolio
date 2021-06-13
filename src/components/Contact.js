@@ -12,19 +12,19 @@ const Contact = () => {
         <div class="contact-area">
           <div class="social-icon">
             <a
-              class="fa fa-linkedin fa-2x"
+              class="fa fa-linkedin fa-2x shuttle"
               href="https://www.linkedin.com/in/eric-hunter-b7a637183?trk=profile-badge"
             ></a>
           </div>
           <div class="social-icon">
             <a
-              class="fa fa-github fa-2x"
+              class="fa fa-github fa-2x shuttle"
               href="https://github.com/ehunter7"
             ></a>
           </div>
           <div class="resumeDiv">
             <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
-              <button class="contact resumeBtn">My Resume</button>
+              <button class="contact resumeBtn shuttle">My Resume</button>
             </a>
           </div>
           <div class="resumeDiv">
@@ -33,7 +33,9 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button class="contact resumeBtn">Ehunter@live.com</button>
+              <button class="contact resumeBtn shuttle">
+                Ehunter@live.com
+              </button>
             </a>
           </div>
         </div>

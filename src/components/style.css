@@ -37,6 +37,21 @@ body {
   margin-top: 1em;
 }
 
+.project-link {
+  color: #f6ae2d;
+}
+
+.shuttle:hover {
+  color: #f6ae2d;
+  border-color: #f6ae2d;
+}
+
+.project-link:hover {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #f6ae2d;
+}
+
 h5 a {
   text-decoration: none;
   color: #f26419;
