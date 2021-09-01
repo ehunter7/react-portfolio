@@ -4,10 +4,41 @@ body {
 
 .hero-image {
   background-image: url(../Assets/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg);
-  min-height: 55em;
-  max-height: fit-content;
+  min-height: 100vh;
+  /* max-height: fit-content; */
   width: 100%;
   background-size: cover;
+}
+
+.headingInfo {
+  /* height: 100%; */
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 24em;
+}
+
+
+.about-me-intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 35%; */
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.about-me-intro-text{
+width: 45%;
+}
+
+.work-button{
+  margin-right: 2em;
+  font-size: 1.75em;
 }
 
 .intro {
@@ -26,15 +57,16 @@ body {
   margin-top: 1.5em;
 }
 
-.intro-text {
+/* .intro-text {
   display: flex;
   justify-content: center;
-}
+} */
 
 .idLinks {
   /* margin-left: 1.25em; */
   /* margin-bottom: 1em; */
-  margin-top: 1em;
+  margin-top: .2em;
+  margin-right: 2em;
 }
 
 .project-link {
@@ -68,10 +100,6 @@ a:hover {
   text-decoration: none;
 }
 
-.headingInfo {
-  /* padding-left: 3em; */
-  margin-top: 3rem;
-}
 
 .intro p {
   font-size: 0.5em;
@@ -102,9 +130,11 @@ a:hover {
 
 .links {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+  margin-right: 15%;
+  padding-top: 2%;
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 h2 {

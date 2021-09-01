@@ -5,6 +5,16 @@ const About = () => {
   return (
     <section className="about-me" id="about">
       <h2 className="about-me-header mt-5">About Me</h2>
+      <div className="about-me-intro">
+        <div className="about-me-intro-text">
+          <p>
+            I create dynamic and easy to use online experiences. I'm passionate
+            about approaching coding challenges from different angles and
+            collaborating with others to develop interactive and meaningful web
+            applications.
+          </p>
+        </div>
+      </div>
       <section className="box-container">
         <div className="box">
           <h3>Achievements</h3>
