@@ -73,7 +73,7 @@ const ProjectGallery = () => {
   ];
 
   return (
-    <div className="container text-white">
+    <div id="work" className="container text-white">
       <h2 className="work-header mt-5 mb-3">Work</h2>
       <div className="row">
         {myProjects.map((project) => {

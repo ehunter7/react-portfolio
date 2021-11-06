@@ -41,6 +41,14 @@ width: 45%;
   font-size: 1.75em;
 }
 
+
+.contact:hover {
+
+  text-decoration: none;
+  color: #f6ae2d;
+  border-color: #f6ae2d;
+}
+
 .intro {
   font-size: 3em;
   color: seashell;

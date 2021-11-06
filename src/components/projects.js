@@ -9,8 +9,10 @@ import { Carousel } from "react-bootstrap";
 
 const Projects = () => {
   return (
-    <section className="work container" id="work">
-      <h2 className="work-header mt-5">Work</h2>
+    <section className="container">
+      <h2 id="work" className="work work-header mt-5">
+        Work
+      </h2>
       <div
         id="carouselExampleCaptions"
         className="carousel slide"

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "./header";
 import "./style.css";
 import ResumePDF from "../Assets/docs/Resume.pdf";
+// import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -29,16 +30,16 @@ const Hero = () => {
         </div>
         {/* </div> */}
       </section>{" "}
-      <div className="headingInfo">
+      <div className="headingInfo mt-5">
         <div>
           <h1>
-            hey, i'm <span className="name">Eric !</span>
+            Hey, i'm <span className="name">Eric !</span>
           </h1>
         </div>
 
         <div className="work-button">
           <a href="#work">
-            <button className="contact ">view my work</button>
+            <button className="contact">view my work</button>
           </a>
         </div>
       </div>
