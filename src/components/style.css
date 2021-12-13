@@ -1,19 +1,27 @@
+:root {
+/* Colors */
+  --background : #2f4858;
+  --primary-text: white;
+  --secondary-text: seashell;
+  --color-when-hover: #f6ae2d;
+  --secondary: #f26419;
+}
+
 body {
-  background-color: #2f4858;
+  background-color: var(--background);
 }
 
 .hero-image {
   background-image: url(../Assets/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg);
   min-height: 100vh;
-  /* max-height: fit-content; */
   width: 100%;
   background-size: cover;
 }
 
 .headingInfo {
-  /* height: 100%; */
+
   font-family: 'Space Grotesk', sans-serif;
-  color: white;
+  color: var(--primary-text);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,14 +29,12 @@ body {
   height: 24em;
 }
 
-
 .about-me-intro{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 35%; */
   font-family: 'Space Grotesk', sans-serif;
-  color: white;
+  color: var(--primary-text);;
   text-align: center;
 }
 
@@ -41,66 +47,46 @@ width: 45%;
   font-size: 1.75em;
 }
 
-
 .contact:hover {
 
   text-decoration: none;
-  color: #f6ae2d;
-  border-color: #f6ae2d;
-}
-
-.intro {
-  font-size: 3em;
-  color: seashell;
-  width: 50%;
-  height: 100%;
-  margin: auto;
-  /* padding: 5%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: var(--color-when-hover);
+  border-color: var(--color-when-hover);
 }
 
 .intro-content {
   margin-top: 1.5em;
 }
 
-/* .intro-text {
-  display: flex;
-  justify-content: center;
-} */
-
 .idLinks {
-  /* margin-left: 1.25em; */
-  /* margin-bottom: 1em; */
   margin-top: .2em;
   margin-right: 2em;
 }
 
 .project-link {
-  color: #f6ae2d;
+  color: var(--color-when-hover);
 }
 
 .shuttle:hover {
-  color: #f6ae2d;
-  border-color: #f6ae2d;
+  color: var(--color-when-hover);
+  border-color: var(--color-when-hover);
 }
 
 .project-link:hover {
   font-size: 1.8em;
   text-decoration: none;
-  color: #f6ae2d;
+  color: var(--color-when-hover);
 }
 
 h5 a {
   text-decoration: none;
-  color: #f26419;
+  color: var(--secondary);
   font-size: 2em;
 }
 
 a {
   text-decoration: none;
-  color: #f26419;
+  color: var(--secondary);
   font-size: 1.5em;
 }
 
@@ -108,24 +94,19 @@ a:hover {
   text-decoration: none;
 }
 
-
-.intro p {
-  font-size: 0.5em;
-}
-
 .contact {
   font-size: 0.5em;
-  color: seashell;
+  color: var(--secondary-text);
   background: none;
-  border: 2px solid seashell;
+  border: 2px solid var(--secondary-text);
   border-radius: 5px;
 }
 
 .resumeBtn {
   font-size: 0.5em;
-  color: seashell;
+  color: var(--secondary-text);
   background: none;
-  border: 2px solid seashell;
+  border: 2px solid var(--secondary-text);
   border-radius: 5px;
 }
 
@@ -141,14 +122,12 @@ a:hover {
   justify-content: flex-end;
   margin-right: 15%;
   padding-top: 2%;
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
 h2 {
   text-align: center;
   margin-top: 1em;
-  color: #f26419;
+  color: var(--secondary);
 }
 
 .box h3 {
@@ -157,7 +136,7 @@ h2 {
   padding-bottom: 0.5em;
   margin: auto;
   width: 75%;
-  border-bottom: 2px solid #f6ae2d;
+  border-bottom: 2px solid var(--color-when-hover);
 }
 
 .box p {
@@ -170,7 +149,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: white;
+  color: var(--primary-text);
 }
 
 .box {
@@ -196,13 +175,13 @@ h2 {
 .contact-form {
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--primary-text);
   width: 100%;
 }
 
 input {
   background-color: transparent;
-  border: 2px solid #f6ae2d;
+  border: 2px solid var(--color-when-hover);
   border-radius: 5px;
   width: 75%;
   height: 1.5em;
@@ -211,7 +190,6 @@ input {
 }
 label {
   margin: 6px 0 2px 4px;
-
   font-size: 1.25em;
 }
 #contact {
@@ -220,7 +198,7 @@ label {
 
 textarea {
   background-color: transparent;
-  border: 2px solid #f6ae2d;
+  border: 2px solid var(--color-when-hover);
   border-radius: 5px;
   resize: none;
   width: 255px;
@@ -228,9 +206,9 @@ textarea {
 }
 
 .input {
-  color: white;
+  color: var(--primary-text);
   background-color: transparent;
-  border: 2px solid #f6ae2d;
+  border: 2px solid var(--color-when-hover);
   border-radius: 5px;
   justify-content: center;
   padding: 2px 40px 0 40px;
@@ -251,7 +229,6 @@ textarea {
 
 .contact-area {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   margin-bottom: 1em;
   padding: 1em;
@@ -269,33 +246,22 @@ textarea {
   height: auto;
 }
 
-/* .carousel {
-  width: 640px;
-  height: 360px;
-} */
-
 .contactTitle {
   margin-top: 2em;
 }
 
 .fa-linkedin {
-  /* background: #3b5998; */
-  /* background: #fff; */
-  color: #fff;
+  color: var(--primary-text);
   font-size: 1em;
 }
 
 .fa-github {
-  /* background: #3b5998; */
-  /* background: #fff; */
-  color: #fff;
+  color: var(--primary-text);
   font-size: 2em;
 }
 
 .fa {
-  /* padding: 20px; */
   font-size: 2em;
-  /* width: 65px; */
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -305,16 +271,9 @@ textarea {
 }
 
 .social-icon {
-  /* display: flex; */
   padding: 0.5em;
   align-items: center;
 }
-
-/* .social-icon {
-  display: flex;
-  justify-content: center;
-  padding: 2em;
-} */
 
 .projectCard {
   display: flex;

@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import ResumePDF from "../Assets/docs/Resume.pdf";
 
 const Contact = () => {
-  const [showResume, setShowResume] = useState(false);
-
   return (
     <div>
       <h2 className="contactTitle">Contact</h2>

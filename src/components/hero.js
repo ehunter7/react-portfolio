@@ -1,8 +1,5 @@
-import React, { useRef } from "react";
-import Header from "./header";
 import "./style.css";
 import ResumePDF from "../Assets/docs/Resume.pdf";
-// import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -28,8 +25,7 @@ const Hero = () => {
             href="https://github.com/ehunter7"
           ></a>
         </div>
-        {/* </div> */}
-      </section>{" "}
+      </section>
       <div className="headingInfo mt-5">
         <div>
           <h1>
