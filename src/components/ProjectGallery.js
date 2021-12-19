@@ -13,11 +13,11 @@ import Google_Books_Search from "../Assets/Images/Google-Book-Search.png";
 import Google_Books_Saved from "../Assets/Images/Google-Book-Saved.png";
 import Employee_Tracker from "../Assets/Images/Employee-Tracker.jpg";
 import Employee_Tracker_Filter from "../Assets/Images/Employee-Tracker-Filter.jpg";
-import will_call_pending from "AssetsImageswill-call_pending.png";
-import will_call_completed from "AssetsImageswill-call_completed.png";
-import will_call_completed_open from "AssetsImageswill-call_completed_open.png";
-import will_call_new from "AssetsImageswill-call_new.png";
-import will_call_users from "AssetsImageswill-call_users.png";
+import will_call_pending from "../Assets/Images/will-call_pending.png";
+import will_call_completed from "../Assets/Images/will-call_completed.png";
+import will_call_completed_open from "../Assets/Images/will-call_completed_open.png";
+import will_call_new from "../Assets/Images/will-call_new.png";
+import will_call_users from "../Assets/Images/will-call_users.png";
 
 const ProjectGallery = () => {
   const myProjects = [
