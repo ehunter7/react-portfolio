@@ -13,9 +13,28 @@ import Google_Books_Search from "../Assets/Images/Google-Book-Search.png";
 import Google_Books_Saved from "../Assets/Images/Google-Book-Saved.png";
 import Employee_Tracker from "../Assets/Images/Employee-Tracker.jpg";
 import Employee_Tracker_Filter from "../Assets/Images/Employee-Tracker-Filter.jpg";
+import will_call_pending from "AssetsImageswill-call_pending.png";
+import will_call_completed from "AssetsImageswill-call_completed.png";
+import will_call_completed_open from "AssetsImageswill-call_completed_open.png";
+import will_call_new from "AssetsImageswill-call_new.png";
+import will_call_users from "AssetsImageswill-call_users.png";
 
 const ProjectGallery = () => {
   const myProjects = [
+    {
+      title: "Will Call Pickup Manager",
+      image: [
+        will_call_pending,
+        will_call_new,
+        will_call_completed,
+        will_call_completed_open,
+        will_call_users,
+      ],
+      deployedLink: "https://enigmatic-journey-26123.herokuapp.com/",
+      gitHubLink: "https://github.com/ehunter7/will-call",
+      description:
+        "The will Call manager allows users to create pickups, track there progress, and set a pickup to complete once picked up. The application allows an admin to create multiple users with different roles. Each role has different rules and parameters that the employee must follow on the site. The site was build using MongoDB, Express.js, React.js, and Node.js",
+    },
     {
       title: "Employee Managment System",
       image: [
